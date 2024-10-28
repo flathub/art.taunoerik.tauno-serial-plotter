@@ -163,6 +163,11 @@
                       "sha256": "42dea1b65771cba93b7a515d65a65d8246e560768a66b9106a592c8e7f26c8a7"
                   },
                   {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/b7/a0/95e9e962c5fd9da11c1e28aa4c0d8210ab277b1ada951d2aee336b505813/wheel-0.44.0.tar.gz",
+                    "sha256": "a29c3f2817e95ab89aa4660681ad547c0e9547f20e75b0562fe7723c9a2a9d49"
+                },
+                  {
                       "type": "file",
                       "url": "https://files.pythonhosted.org/packages/1b/15/78318d50f10062c428e97e7ce387e772616a4673c356018b905f247a6a85/PyQt5_sip-12.15.0.tar.gz",
                       "sha256": "d23fdfcf363b5cedd9d39f8a9c5710e7d52804f5b08a58e91c638b36eafcb702"
