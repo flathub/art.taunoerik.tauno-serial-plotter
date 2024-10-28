@@ -45,7 +45,7 @@
               "name": "toml",
               "buildsystem": "simple",
               "build-commands": [
-                  "pip3 install --no-deps --no-use-pep517 --prefix=$FLATPAK_DEST"
+                  "pip3 install --prefix=${FLATPAK_DEST}"
               ],
               "sources": [
                   {
@@ -62,7 +62,7 @@
               "name": "packaging",
               "buildsystem": "simple",
               "build-commands": [
-                  "pip3 install --no-deps --no-use-pep517 --prefix=$FLATPAK_DEST"
+                  "pip3 install --prefix=${FLATPAK_DEST}"
               ],
               "sources": [
                   {
@@ -79,7 +79,7 @@
               "name": "pyparsing",
               "buildsystem": "simple",
               "build-commands": [
-                  "pip3 install --no-deps --no-use-pep517 --prefix=$FLATPAK_DEST"
+                  "pip3 install --prefix=${FLATPAK_DEST}"
               ],
               "sources": [
                   {
@@ -96,7 +96,7 @@
               "name": "sip",
               "buildsystem": "simple",
               "build-commands": [
-                  "pip3 install --no-deps --no-use-pep517 --prefix=$FLATPAK_DEST"
+                  "pip3 install --prefix=${FLATPAK_DEST}"
               ],
               "sources": [
                   {
@@ -113,7 +113,7 @@
               "name": "PyQt5_sip",
               "buildsystem": "simple",
               "build-commands": [
-                  "pip3 install --no-deps --no-use-pep517 --prefix=$FLATPAK_DEST"
+                  "pip3 install --prefix=${FLATPAK_DEST}"
               ],
               "sources": [
                   {
@@ -141,7 +141,7 @@
                     }
             ],
             "build-commands": [
-                "pip3 install --no-deps --no-use-pep517 --prefix=$FLATPAK_DESTp"
+                "pip3 install --prefix=${FLATPAK_DEST}"
             ]
         },
         {
