@@ -154,6 +154,16 @@
               "sources": [
                   {
                       "type": "file",
+                      "url": "https://files.pythonhosted.org/packages/07/37/b31be7e4b9f13b59cde9dcaeff112d401d49e0dc5b37ed4a9fc8fb12f409/setuptools-75.2.0.tar.gz",
+                      "sha256": "753bb6ebf1f465a1912e19ed1d41f403a79173a9acf66a42e7e6aec45c3c16ec"
+                  },
+                  {
+                      "type": "file",
+                      "url": "https://files.pythonhosted.org/packages/4f/a4/00a9ac1b555294710d4a68d2ce8dfdf39d72aa4d769a7395d05218d88a42/setuptools_scm-8.1.0.tar.gz",
+                      "sha256": "42dea1b65771cba93b7a515d65a65d8246e560768a66b9106a592c8e7f26c8a7"
+                  },
+                  {
+                      "type": "file",
                       "url": "https://files.pythonhosted.org/packages/1b/15/78318d50f10062c428e97e7ce387e772616a4673c356018b905f247a6a85/PyQt5_sip-12.15.0.tar.gz",
                       "sha256": "d23fdfcf363b5cedd9d39f8a9c5710e7d52804f5b08a58e91c638b36eafcb702"
                   }
