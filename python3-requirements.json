@@ -108,7 +108,7 @@
               "name": "sip",
               "buildsystem": "simple",
               "build-commands": [
-                  "pip install  --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"setuptools\""
+                  "pip install  --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"setuptools\"",
                   "pip install  --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"sip\""
               ],
               "sources": [
