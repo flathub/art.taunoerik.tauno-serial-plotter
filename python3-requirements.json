@@ -62,7 +62,7 @@
                 "name": "flit-core",
                 "buildsystem": "simple",
                 "build-commands": [
-                    "pip3 install  --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"flit-core\""
+                    "pip install  --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"flit-core\""
                 ],
                 "sources": [
                     {
@@ -79,7 +79,7 @@
               "name": "packaging",
               "buildsystem": "simple",
               "build-commands": [
-                  "pip3 install  --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"packaging\""
+                  "pip install  --verbose --exists-action=i --no-index  --prefix=${FLATPAK_DEST} \"packaging\""
               ],
               "sources": [
                   {
@@ -96,7 +96,7 @@
               "name": "pyparsing",
               "buildsystem": "simple",
               "build-commands": [
-                  "pip3 install  --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pyparsing\""
+                  "pip install  --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pyparsing\""
               ],
               "sources": [
                   {
@@ -113,7 +113,7 @@
               "name": "sip",
               "buildsystem": "simple",
               "build-commands": [
-                  "pip3 install  --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"sip\""
+                  "pip install  --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"sip\""
               ],
               "sources": [
                   {
@@ -130,7 +130,7 @@
               "name": "PyQt5_sip",
               "buildsystem": "simple",
               "build-commands": [
-                  "pip3 install  --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"PyQt5_sip\""
+                  "pip install  --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"PyQt5_sip\""
               ],
               "sources": [
                   {
@@ -158,14 +158,14 @@
                     }
             ],
             "build-commands": [
-                "pip3 install  --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"numpy\""
+                "pip install  --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"numpy\""
             ]
         },
         {
             "name": "python3-pyqtgraph",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pyqtgraph==0.13.7\""
+                "pip install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pyqtgraph==0.13.7\""
             ],
             "sources": [
                 {
