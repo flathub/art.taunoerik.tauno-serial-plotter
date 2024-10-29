@@ -39,6 +39,7 @@
             ],
             "cleanup": [
               "/bin",
+              "/bin/flit_core*",
               "/bin/toml*",
               "/bin/sip*",
               "/bin/packaging*",
@@ -48,6 +49,20 @@
               "/lib/python3.11/site-packages/*.pyi"
             ],
             "modules" : [
+                {
+                    "name": "flit_core",
+                    "buildsystem": "simple",
+                    "build-commands": [
+                        "pip install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"flit_core\""
+                    ],
+                    "sources": [
+                      {
+                        "type": "file",
+                        "url": "https://files.pythonhosted.org/packages/c4/e6/c1ac50fe3eebb38a155155711e6e864e254ce4b6e17fe2429b4c4d5b9e80/flit_core-3.9.0.tar.gz",
+                        "sha256": "72ad266176c4a3fcfab5f2930d76896059851240570ce9a98733b658cb786eba"
+                      }
+                    ]
+                },
                 {
                     "name": "toml",
                     "buildsystem": "simple",
