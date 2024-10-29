@@ -26,7 +26,7 @@
             ],
             "buildsystem": "simple",
             "build-commands": [
-              "PYVER=$(python3 -c \"import sys;print(sys.version_info[1])\") && QMAKEPATH=/app/lib  --confirm-license --no-designer-plugin --bindir=/app/bin --destdir=/app/lib/python3.${PYVER}/site-packages --qml-plugindir=/app/lib/plugins/PyQt5 --sipdir=/app/share/sip --stubsdir=/app/lib/python3.${PYVER}/site-packages/PyQt5",
+              "PYVER=$(python3 -c \"import sys;print(sys.version_info[1])\") && QMAKEPATH=/app/lib python3 pip --confirm-license --no-designer-plugin --bindir=/app/bin --destdir=/app/lib/python3.${PYVER}/site-packages --qml-plugindir=/app/lib/plugins/PyQt5 --sipdir=/app/share/sip --stubsdir=/app/lib/python3.${PYVER}/site-packages/PyQt5",
               "make -j $FLATPAK_BUILDER_N_JOBS",
               "make install"
             ],
