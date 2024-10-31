@@ -26,7 +26,7 @@
             ],
             "buildsystem": "simple",
             "build-commands": [
-              "PYVER=$(python3 -c \"import sys;print(sys.version_info[1])\") && QMAKEPATH=/app/lib python3 configure.py --confirm-license --no-designer-plugin --bindir=/app/bin --destdir=/app/lib/python3.${PYVER}/site-packages --qml-plugindir=/app/lib/plugins/PyQt5 --sip=${FLATPAK_DEST}/bin/sip-module --sipdir=/app/share/sip --stubsdir=/app/lib/python3.${PYVER}/site-packages/PyQt5",
+              "PYVER=$(python3 -c \"import sys;print(sys.version_info[1])\") && QMAKEPATH=/app/lib python3 configure.py --confirm-license --no-designer-plugin --bindir=/app/bin --destdir=/app/lib/python3.${PYVER}/site-packages --qml-plugindir=/app/lib/plugins/PyQt5 --sip=${FLATPAK_DEST}/bin/sip --sipdir=/app/share/sip --stubsdir=/app/lib/python3.${PYVER}/site-packages/PyQt5",
               "make -j $FLATPAK_BUILDER_N_JOBS",
               "make install"
             ],
@@ -151,8 +151,8 @@
                         },
                       {
                         "type": "file",
-                        "url": "https://files.pythonhosted.org/packages/6e/52/36987b182711104d5e9f8831dd989085b1241fc627829c36ddf81640c372/sip-6.8.6.tar.gz",
-                        "sha256": "7fc959e48e6ec5d5af8bd026f69f5e24d08b3cb8abb342176f5ab8030cc07d7a"
+                        "url": "https://files.pythonhosted.org/packages/b0/5f/ffaa04f8b2f0b5e05dcebc882c1a151895d5ec54f2c9caa95ee003af93ba/sip-5.3.0.tar.gz",
+                        "sha256": "03a44e20b252ef03ca2891e9439d238af3fd8245f65cdcff238a843d4f455b80"
                       }
                     ]
                 },
