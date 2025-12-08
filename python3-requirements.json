@@ -72,24 +72,21 @@
                   "/bin"
               ]
             },
-              {
-              "name": "packaging",
-              "buildsystem": "simple",
-              "build-commands": [
-                  "python3 setup.py install --prefix=/app --root=/"
-              ],
-              "sources": [
-                  {
-                      "type": "archive",
-                      "url": "https://files.pythonhosted.org/packages/55/fd/fc1aca9cf51ed2f2c11748fa797370027babd82f87829c7a8e6dbe720145/packaging-20.4.tar.gz",
-                      "sha256": "4357f74f47b9c12db93624a82154e9b120fa8293699949152b22065d556079f8"
-                  }
-              ],
-              "cleanup": [
-                  "/bin"
-              ]
-              },
-              {
+            {
+                "name": "packaging",
+                "buildsystem": "simple",
+                "build-commands": [
+                    "pip3 install --no-build-isolation --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"packaging\""
+                ],
+                "sources": [
+                {
+                  "type": "archive",
+                  "url": "https://files.pythonhosted.org/packages/source/p/packaging/packaging-24.2.tar.gz",
+                  "sha256": "c228a6dc5e932d346bc5739379109d49e8853dd8223571c7c5b55260ed726d7e"
+                }
+                ]
+            },
+            {
               "name": "pyparsing",
               "buildsystem": "simple",
               "build-commands": [
