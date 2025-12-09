@@ -33,6 +33,20 @@
             ]
         },
         {
+          "name": "python3-toml",
+          "buildsystem": "simple",
+          "build-commands": [
+            "pip3 install --no-build-isolation --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"toml\""
+          ],
+          "sources": [
+            {
+              "type": "file",
+              "url": "https://files.pythonhosted.org/packages/source/t/toml/toml-0.10.2.tar.gz",
+              "sha256": "45d1a8b98b00ba3abf995a9c0499d3e89c6064988e85e2c502690f05155f9a46"
+            }
+          ]
+        },
+        {
           "name": "python3-ply",
           "buildsystem": "simple",
           "build-commands": [
