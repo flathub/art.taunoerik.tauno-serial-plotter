@@ -33,6 +33,20 @@
             ]
         },
         {
+          "name": "python3-sip",
+          "buildsystem": "simple",
+          "build-commands": [
+            "pip3 install --no-build-isolation --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"sip\""
+          ],
+          "sources": [
+            {
+              "type": "file",
+              "url": "https://files.pythonhosted.org/packages/source/s/sip/sip-6.8.0.tar.gz",
+              "sha256": "4391583d476615b3b0d24c29758509e53096d27ed315668d27715f69742c0c16"
+            }
+          ]
+        },
+        {
           "name": "python3-pyqt6",
           "buildsystem": "simple",
           "build-commands": [
