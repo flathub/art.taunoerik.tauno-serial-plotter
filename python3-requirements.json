@@ -2,7 +2,8 @@
     "name": "python3-requirements",
     "buildsystem": "simple",
     "build-commands": [],
-    "modules": [
+    "modules": 
+    [
         {
             "name": "python3-setuptools",
             "buildsystem": "simple",
@@ -32,114 +33,23 @@
             ]
         },
         {
-            "name": "pyqt5",
-            "config-opts": [
-              "--disable-static",
-              "--enable-x11",
-              "--enable-wayland"
-            ],
-            "buildsystem": "simple",
-            "build-commands": [
-              "PYVER=$(python3 -c \"import sys;print(sys.version_info[1])\") && QMAKEPATH=/app/lib python3 configure.py --confirm-license --no-designer-plugin --bindir=/app/bin --destdir=/app/lib/python3.${PYVER}/site-packages --qml-plugindir=/app/lib/plugins/PyQt5 --sipdir=/app/share/sip --stubsdir=/app/lib/python3.${PYVER}/site-packages/PyQt5",
-              "make -j $FLATPAK_BUILDER_N_JOBS",
-              "make install"
-            ],
-            "sources": [
-              {
-                "type": "archive",
-                "url": "https://files.pythonhosted.org/packages/8e/a4/d5e4bf99dd50134c88b95e926d7b81aad2473b47fde5e3e4eac2c69a8942/PyQt5-5.15.4.tar.gz",
-                "sha256": "2a69597e0dd11caabe75fae133feca66387819fc9bc050f547e5551bce97e5be"
-             }
-           ],
-           "cleanup": [
-             "/bin"
-           ],
-            "modules" : [
-              {
-              "name": "toml",
-              "buildsystem": "simple",
-              "build-commands": [
-                  "python3 setup.py install --prefix=/app --root=/"
-              ],
-              "sources": [
-                  {
-                      "type": "archive",
-                      "url": "https://files.pythonhosted.org/packages/da/24/84d5c108e818ca294efe7c1ce237b42118643ce58a14d2462b3b2e3800d5/toml-0.10.1.tar.gz",
-                      "sha256": "926b612be1e5ce0634a2ca03470f95169cf16f939018233a670519cb4ac58b0f"
-                  }
-              ],
-              "cleanup": [
-                  "/bin"
-              ]
+          "name": "python3-pyqt6",
+          "buildsystem": "simple",
+          "build-commands": [
+            "pip3 install --no-build-isolation --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"PyQt6\""
+          ],
+          "sources": [
+            {
+              "type": "file",
+              "url": "https://files.pythonhosted.org/packages/source/P/PyQt6/PyQt6-6.7.0.tar.gz",
+              "sha256": "439162955f1f33f382a17058869151ff72d5c411c750b691b106927164998d36"
             },
             {
-                "name": "packaging",
-                "buildsystem": "simple",
-                "build-commands": [
-                    "pip3 install --no-build-isolation --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"packaging\""
-                ],
-                "sources": [
-                {
-                  "type": "archive",
-                  "url": "https://files.pythonhosted.org/packages/source/p/packaging/packaging-24.2.tar.gz",
-                  "sha256": "c228a6dc5e932d346bc5739379109d49e8853dd8223571c7c5b55260edc0b97f"
-                }
-                ]
-            },
-            {
-              "name": "pyparsing",
-              "buildsystem": "simple",
-              "build-commands": [
-                  "python3 setup.py install --prefix=/app --root=/"
-              ],
-              "sources": [
-                  {
-                      "type": "archive",
-                      "url": "https://files.pythonhosted.org/packages/c1/47/dfc9c342c9842bbe0036c7f763d2d6686bcf5eb1808ba3e170afdb282210/pyparsing-2.4.7.tar.gz",
-                      "sha256": "c203ec8783bf771a155b207279b9bccb8dea02d8f0c9e5f8ead507bc3246ecc1"
-                  }
-              ],
-              "cleanup": [
-                  "/bin"
-              ]
-          },
-                {
-              "name": "sip",
-              "buildsystem": "simple",
-              "build-commands": [
-                  "python3 setup.py install --prefix=/app --root=/"
-              ],
-              "sources": [
-                  {
-                      "type": "archive",
-                      "url": "https://files.pythonhosted.org/packages/33/e9/27730ac17713c0a80d81d8f3bb56213f1549d96f9dc183fd16a7eec6287c/sip-5.5.0.tar.gz",
-                      "sha256": "5d024c419b30fea8a6de8c71a560c7ab0bc3c221fbfb14d55a5b865bd58eaac5"
-                  }
-              ],
-              "cleanup": [
-                  "/bin"
-              ]
-          },
-          {
-              "name": "PyQt5_sip",
-              "buildsystem": "simple",
-              "build-commands": [
-                  "python3 setup.py install --prefix=/app --root=/"
-              ],
-              "sources": [
-                  {
-                      "type": "archive",
-                      "url": "https://files.pythonhosted.org/packages/73/8c/c662b7ebc4b2407d8679da68e11c2a2eb275f5f2242a92610f6e5024c1f2/PyQt5_sip-12.8.1.tar.gz",
-                      "sha256": "30e944db9abee9cc757aea16906d4198129558533eb7fadbe48c5da2bd18e0bd"
-                  }
-              ],
-              "cleanup": [
-                  "/bin"
-              ]
-          }
-                
-                
-            ]
+              "type": "file",
+              "url": "https://files.pythonhosted.org/packages/source/P/PyQt6-sip/PyQt6_sip-13.7.0.tar.gz",
+              "sha256": "c015b3c58611c37c28c89b4f009e4f55f308a3d745c11a2f643e931448df7404"
+            }
+          ]
         },
         {
             "name": "numpy",
