@@ -41,13 +41,13 @@
           "sources": [
             {
               "type": "file",
-              "url": "https://files.pythonhosted.org/packages/source/P/PyQt6/PyQt6-6.7.0.tar.gz",
-              "sha256": "439162955f1f33f382a17058869151ff72d5c411c750b691b106927164998d36"
+              "url": "https://files.pythonhosted.org/packages/5c/f5/530b553ea1e239704c5ba86e9e6dd09e4b6240c5b4ee0567d7a135e8466a/pyqt6-6.10.1.tar.gz",
+              "sha256": "d733a6c712c0b7a7b99e4ad59b211ea25a5d1b9d1131e47a1f50b5e524266e57"
             },
             {
               "type": "file",
-              "url": "https://files.pythonhosted.org/packages/source/P/PyQt6-sip/PyQt6_sip-13.7.0.tar.gz",
-              "sha256": "c015b3c58611c37c28c89b4f009e4f55f308a3d745c11a2f643e931448df7404"
+              "url": "https://files.pythonhosted.org/packages/0d/e9/d1b97154cec1d6c8a3d93fb6565d1463bc528fa5103491d626d07a451c7c/pyqt6_sip-13.10.3.tar.gz",
+              "sha256": "630895b3827e2c3b4e072089157985691fe4210d64340e71141f93775ea4ae51"
             }
           ]
         },
@@ -57,8 +57,8 @@
             "sources": [
                     {
                         "type": "archive",
-                        "url": "https://files.pythonhosted.org/packages/50/e1/9b0c184f04b8cf5f3c941ffa56fbcbe936888bdac9aa7ba6bae405ac752b/numpy-1.22.0.zip",
-                        "sha256": "a955e4128ac36797aaffd49ab44ec74a71c11d6938df83b1285492d277db5397"
+                        "url": "https://files.pythonhosted.org/packages/76/65/21b3bc86aac7b8f2862db1e808f1ea22b028e30a225a34a5ede9bf8678f2/numpy-2.3.5.tar.gz",
+                        "sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0"
                     }
             ],
             "build-commands": [
@@ -70,18 +70,18 @@
             "name": "python3-pyqtgraph",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pyqtgraph==0.12.3\""
+                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pyqtgraph==0.13.7\""
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/50/e1/9b0c184f04b8cf5f3c941ffa56fbcbe936888bdac9aa7ba6bae405ac752b/numpy-1.22.0.zip",
-                    "sha256": "a955e4128ac36797aaffd49ab44ec74a71c11d6938df83b1285492d277db5397"
+                    "url": "https://files.pythonhosted.org/packages/76/65/21b3bc86aac7b8f2862db1e808f1ea22b028e30a225a34a5ede9bf8678f2/numpy-2.3.5.tar.gz",
+                    "sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/36/8f/4893227da3d4825a48cc1ec67acfc19ad26444f78527b61d6ed22c926d10/pyqtgraph-0.12.3.tar.gz",
-                    "sha256": "f1dfee710fa5e9abaaf3d4dff0116659e6c7b4e7b514870c5cddad268a753d74"
+                    "url": "https://files.pythonhosted.org/packages/33/d9/b62d5cddb3caa6e5145664bee5ed90223dee23ca887ed3ee479f2609e40a/pyqtgraph-0.13.7.tar.gz",
+                    "sha256": "64f84f1935c6996d0e09b1ee66fe478a7771e3ca6f3aaa05f00f6e068321d9e3"
                 }
             ]
         }
