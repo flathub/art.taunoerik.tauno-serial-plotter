@@ -41,8 +41,8 @@
           "sources": [
             {
               "type": "file",
-              "url": "https://files.pythonhosted.org/packages/d0/5f/d6dc58565d2d174064b545f8b3bef7b6117d25ee06181d5560cc290bd344/sip-6.15.0.tar.gz",
-              "sha256": "3920f26515456ee21114a1f8282144f8c156b1aabc3b44424155d5f81396025f"
+              "url": "https://files.pythonhosted.org/packages/62/9a/78122735697dbfc6c1db363627309eb0da7e44d8c05ba017b08666530586/sip-6.10.0.tar.gz",
+              "sha256": "fa0515697d4c98dbe04d9e898d816de1427e5b9ae5d0e152169109fd21f5d29c"
             }
           ]
         },
