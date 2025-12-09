@@ -75,19 +75,19 @@
           ]
         },
         {
-  "name": "python3-pyqt-builder",
-  "buildsystem": "simple",
-  "build-commands": [
-    "pip3 install --no-build-isolation --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"PyQt-builder\""
-  ],
-  "sources": [
-    {
-      "type": "file",
-      "url": "https://files.pythonhosted.org/packages/61/f6/f3b504b4d55a7c4d3393cb90378501f1f5fc7f233bd85c0375674f84d2af/pyqt_builder-1.19.1.tar.gz",
-      "sha256": "6af6646ba29668751b039bfdced51642cb510e300796b58a4d68b7f956a024d8"
-    }
-  ]
-},
+          "name": "python3-pyqt-builder",
+          "buildsystem": "simple",
+          "build-commands": [
+            "pip3 install --no-build-isolation --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"PyQt-builder\""
+          ],
+          "sources": [
+            {
+              "type": "file",
+              "url": "https://files.pythonhosted.org/packages/af/9b/3ee5d8f46b41e81914ee64795da3469782a5c69d67bf7efba82770f81f00/PyQt-builder-1.16.0.tar.gz",
+              "sha256": "47bbd2cfa5430020108f9f40301e166cbea98b6ef3e53953350bdd4c6b31ab18"
+            }
+          ]
+        },
         {
           "name": "python3-pyqt6",
           "buildsystem": "simple",
