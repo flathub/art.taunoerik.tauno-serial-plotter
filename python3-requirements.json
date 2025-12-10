@@ -61,7 +61,7 @@
           ]
         },
         {
-          "name": "python3-sip",
+          "name": "python3-pyqt6-sip",
           "buildsystem": "simple",
           "build-commands": [
             "pip3 install --no-build-isolation --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"sip\""
@@ -69,8 +69,8 @@
           "sources": [
             {
               "type": "file",
-              "url": "https://files.pythonhosted.org/packages/28/09/87e20f2be19051bea42df699947aba30f84422908ec2b8d827bcdf0ab365/sip-6.7.1.tar.gz",
-              "sha256": "28170fdf880f937026fc87faa9c177b062c353c5d169ea3242b07802614ddd0c"
+              "url": "https://files.pythonhosted.org/packages/98/23/e54e02a44afc357ccab1b88575b90729664164358ceffde43e4f2e549daa/PyQt6_sip-13.6.0.tar.gz",
+              "sha256": "2486e1588071943d4f6657ba09096dc9fffd2322ad2c30041e78ea3f037b5778"
             }
           ]
         },
@@ -97,13 +97,8 @@
           "sources": [
             {
               "type": "file",
-              "url": "https://files.pythonhosted.org/packages/5c/f5/530b553ea1e239704c5ba86e9e6dd09e4b6240c5b4ee0567d7a135e8466a/pyqt6-6.10.1.tar.gz",
-              "sha256": "d733a6c712c0b7a7b99e4ad59b211ea25a5d1b9d1131e47a1f50b5e524266e57"
-            },
-            {
-              "type": "file",
-              "url": "https://files.pythonhosted.org/packages/0d/e9/d1b97154cec1d6c8a3d93fb6565d1463bc528fa5103491d626d07a451c7c/pyqt6_sip-13.10.3.tar.gz",
-              "sha256": "630895b3827e2c3b4e072089157985691fe4210d64340e71141f93775ea4ae51"
+              "url": "https://files.pythonhosted.org/packages/ce/c6/99127e39e62f0c887a39d9644012867874a68983bd0fe641f00aa796de88/PyQt6-6.7.0.tar.gz",
+              "sha256": "3d31b2c59dc378ee26e16586d9469842483588142fc377280aad22aaf2fa6235"
             }
           ]
         },
