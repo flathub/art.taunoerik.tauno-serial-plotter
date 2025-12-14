@@ -135,7 +135,7 @@
             "name": "python3-pyqtgraph",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pyqtgraph==0.13.7\""
+                "pip3 install --no-build-isolation --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pyqtgraph==0.13.7\""
             ],
             "sources": [
                 {
