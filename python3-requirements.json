@@ -64,7 +64,7 @@
           "name": "python3-pyqt6-sip",
           "buildsystem": "simple",
           "build-commands": [
-            "pip3 install --no-build-isolation --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"sip\""
+            "pip3 install --no-build-isolation --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"PyQt6-sip\""
           ],
           "sources": [
             {
