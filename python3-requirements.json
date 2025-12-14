@@ -61,6 +61,20 @@
           ]
         },
         {
+          "name": "python3-sip",
+          "buildsystem": "simple",
+          "build-commands": [
+            "pip3 install --no-build-isolation --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"sip\""
+          ],
+          "sources": [
+            {
+              "type": "file",
+              "url": "https://files.pythonhosted.org/packages/28/09/87e20f2be19051bea42df699947aba30f84422908ec2b8d827bcdf0ab365/sip-6.7.1.tar.gz",
+              "sha256": "28170fdf880f937026fc87faa9c177b062c353c5d169ea3242b07802614ddd0c"
+            }
+          ]
+        },
+        {
           "name": "python3-pyqt6-sip",
           "buildsystem": "simple",
           "build-commands": [
