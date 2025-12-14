@@ -14,7 +14,6 @@ finish-args:
   - --device=all
 
 modules:
-  - shared-modules/numpy/numpy.json
   - python3-requirements.json
 
   - name: tauno-serial-plotter
