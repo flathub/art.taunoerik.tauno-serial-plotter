@@ -55,8 +55,8 @@
           "sources": [
             {
               "type": "file",
-              "url": "https://files.pythonhosted.org/packages/28/09/87e20f2be19051bea42df699947aba30f84422908ec2b8d827bcdf0ab365/sip-6.7.1.tar.gz",
-              "sha256": "28170fdf880f937026fc87faa9c177b062c353c5d169ea3242b07802614ddd0c"
+              "url": "https://files.pythonhosted.org/packages/72/34/65d7891ea2c1232155bc0ccc5fac6db0d1baba184e17b494148bd42cc1a2/sip-6.8.0.tar.gz",
+              "sha256": "2ed1904820cb661b7207eb1dccfaebec1a5463dcad903ba448ad1945502d089c"
             }
           ]
         },
@@ -83,8 +83,8 @@
           "sources": [
             {
               "type": "file",
-              "url": "https://files.pythonhosted.org/packages/af/9b/3ee5d8f46b41e81914ee64795da3469782a5c69d67bf7efba82770f81f00/PyQt-builder-1.16.0.tar.gz",
-              "sha256": "47bbd2cfa5430020108f9f40301e166cbea98b6ef3e53953350bdd4c6b31ab18"
+              "url": "https://files.pythonhosted.org/packages/c0/75/a3384eea8770c17e77821368618a5140c4ae0c37f9c05a84ef55f4807172/PyQt-builder-1.15.4.tar.gz",
+              "sha256": "39f8c75db17d9ce17cb6bbf3df1650b5cebc1ea4e5bd73843d21cc96612b2ae1"
             }
           ]
         },
@@ -97,8 +97,8 @@
           "sources": [
                 {
                   "type": "file",
-                  "url": "https://files.pythonhosted.org/packages/e9/0a/accbebed526158ab2aedd5c84d238159754bd99f481082b3fe7f374c6a3b/PyQt6-6.8.0.tar.gz",
-                  "sha256": "6d8628de4c2a050f0b74462e4c9cb97f839bf6ffabbca91711722ffb281570d9"
+                  "url": "https://files.pythonhosted.org/packages/17/dc/969e2da415597b328e6a73dc233f9bb4f2b312889180e9bbe48470c957e7/PyQt6-6.6.0.tar.gz",
+                  "sha256": "d41512d66044c2df9c5f515a56a922170d68a37b3406ffddc8b4adc57181b576"
                 }
           ]
         },
