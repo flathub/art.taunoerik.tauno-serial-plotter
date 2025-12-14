@@ -1,6 +1,6 @@
 app-id: art.taunoerik.tauno-serial-plotter
 runtime: org.kde.Platform
-runtime-version: '5.15-25.08'
+runtime-version: '5.15-24.08'
 sdk: org.kde.Sdk
 base: com.riverbankcomputing.PyQt.BaseApp
 base-version: '5.15-25.08'
@@ -14,6 +14,7 @@ finish-args:
   - --device=all
 
 modules:
+  - shared-modules/numpy/numpy.json
   - python3-requirements.json
 
   - name: tauno-serial-plotter
