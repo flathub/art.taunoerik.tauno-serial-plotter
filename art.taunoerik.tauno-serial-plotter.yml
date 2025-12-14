@@ -2,6 +2,8 @@ app-id: art.taunoerik.tauno-serial-plotter
 runtime: org.kde.Platform
 runtime-version: '5.15-25.08'
 sdk: org.kde.Sdk
+base: com.riverbankcomputing.PyQt.BaseApp
+base-version: '5.15-25.08'
 command: tauno-serial-plotter.py
 
 finish-args:
