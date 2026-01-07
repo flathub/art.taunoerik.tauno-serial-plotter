@@ -32,22 +32,22 @@
                 },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/99/ae/3b3d394c2e9c6329c2d4ca8878f11e3254d93a054dd3eacb9e1e80c8e959/numpy-2.3.5-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+            "url": "https://files.pythonhosted.org/packages/b6/23/2a1b231b8ff672b4c450dac27164a8b2ca7d9b7144f9c02d2396518352eb/numpy-2.3.5-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
             "sha256": "0d8163f43acde9a73c2a33605353a4f1bc4798745a8b1d73183b28e5b435ae28"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/14/47/3312105d5e219e51305c1ff9f1e6b9f8e9f4e8e2f1b1c31e1d103c7e8e8c/numpy-2.3.5-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+            "url": "https://files.pythonhosted.org/packages/74/78/fcd41e5a0ce4f3f7b003da85825acddae6d7ecb60cf25194741b036ca7d6/numpy-2.3.5-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
             "sha256": "8b973c57ff8e184109db042c842423ff4f60446239bd585a5131cc47f06f789d"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/0b/42/83c7f7a08f6a803d2122e3c820e3f9f0e5d8e7e7f0e5e9f0e5e9f0e5e9f/numpy-2.3.5-cp312-cp312-musllinux_1_2_x86_64.whl",
+            "url": "https://files.pythonhosted.org/packages/d2/fa/dd48e225c46c819288148d9d060b047fd2a6fb1eb37eae25112ee4cb4453/numpy-2.3.5-cp312-cp312-musllinux_1_2_x86_64.whl",
             "sha256": "b46b4ec24f7293f23adcd2d146960559aaf8020213de8ad1909dba6c013bf89c"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/0b/42/83c7f7a08f6a803d2122e3c820e3f9f0e5d8e7e7f0e5e9f0e5e9f0e5e9f/numpy-2.3.5-cp312-cp312-musllinux_1_2_aarch64.whl",
+            "url": "https://files.pythonhosted.org/packages/a0/c5/5ad26fbfbe2012e190cc7d5003e4d874b88bb18861d0829edc140a713021/numpy-2.3.5-cp312-cp312-musllinux_1_2_aarch64.whl",
             "sha256": "51c1e14eb1e154ebd80e860722f9e6ed6ec89714ad2db2d3aa33c31d7c12179b"
         }
             ]
