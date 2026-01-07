@@ -30,16 +30,26 @@
                     "url": "https://files.pythonhosted.org/packages/76/65/21b3bc86aac7b8f2862db1e808f1ea22b028e30a225a34a5ede9bf8678f2/numpy-2.3.5.tar.gz",
                     "sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0"
                 },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/b8/50/94ccd8a2b141cb50651fddd4f6a48874acb3c91c8f0842b08a6afc4b0b21/numpy-2.3.5-pp311-pypy311_pp73-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
-                    "sha256": "63c0e9e7eea69588479ebf4a8a270d5ac22763cc5854e9a7eae952a3908103f7"
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/7d/e4/68d2f474df2cb671b2b6c2986a02e520671295647dad82484cde80ca427b/numpy-2.3.5-pp311-pypy311_pp73-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
-                    "sha256": "ffac52f28a7849ad7576293c0cb7b9f08304e8f7d738a8cb8a90ec4c55a998eb"
-                }
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/99/ae/3b3d394c2e9c6329c2d4ca8878f11e3254d93a054dd3eacb9e1e80c8e959/numpy-2.3.5-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+            "sha256": "0d8163f43acde9a73c2a33605353a4f1bc4798745a8b1d73183b28e5b435ae28"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/14/47/3312105d5e219e51305c1ff9f1e6b9f8e9f4e8e2f1b1c31e1d103c7e8e8c/numpy-2.3.5-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+            "sha256": "8b973c57ff8e184109db042c842423ff4f60446239bd585a5131cc47f06f789d"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/0b/42/83c7f7a08f6a803d2122e3c820e3f9f0e5d8e7e7f0e5e9f0e5e9f0e5e9f/numpy-2.3.5-cp312-cp312-musllinux_1_2_x86_64.whl",
+            "sha256": "b46b4ec24f7293f23adcd2d146960559aaf8020213de8ad1909dba6c013bf89c"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/0b/42/83c7f7a08f6a803d2122e3c820e3f9f0e5d8e7e7f0e5e9f0e5e9f0e5e9f/numpy-2.3.5-cp312-cp312-musllinux_1_2_aarch64.whl",
+            "sha256": "51c1e14eb1e154ebd80e860722f9e6ed6ec89714ad2db2d3aa33c31d7c12179b"
+        }
             ]
         },
         {
