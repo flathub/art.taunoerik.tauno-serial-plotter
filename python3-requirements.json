@@ -22,7 +22,7 @@
             "name": "numpy",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --no-build-isolation --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"numpy==2.1.2\""
+                "pip3 install --no-build-isolation --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"numpy==2.3.5\""
             ],
             "sources": [
                 {
