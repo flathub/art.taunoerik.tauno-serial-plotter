@@ -30,4 +30,4 @@ modules:
     sources:
       - type: archive
         url: https://github.com/taunoe/tauno-serial-plotter/archive/refs/tags/v1.20.0.tar.gz
-        sha256: eedaa8d7727963f4fc41c1e13504e1730f00a3d3
+        sha256: 8e40427ec78ec9e04a042b7e887051f40477412c7015d284d8e3d5a3f27a3947
