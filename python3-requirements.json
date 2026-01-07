@@ -27,18 +27,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://files.pythonhosted.org/packages/4b/d1/8a730ea07f4a37d94f9172f4ce1d81064b7a64766b460378be278952de75/numpy-2.1.2.tar.gz",
-                    "sha256": "13532a088217fa624c99b843eeb54640de23b3414b14aa66d023805eb731066c"
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/59/c8/e722998720ccbd35ffbcf1d1b8ed0aa2304af88d3f1c38e06ebf983599b3/numpy-2.1.2-cp313-cp313t-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-                    "sha256": "a26ae94658d3ba3781d5e103ac07a876b3e9b29db53f68ed7df432fd033358a8"
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/7c/8e/fc1fdd83a55476765329ac2913321c4aed5b082a7915095628c4ca30ea72/numpy-2.1.2-cp313-cp313t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-                    "sha256": "13311c2db4c5f7609b462bc0f43d3c465424d25c626d95040f073e30f7570e35"
+                    "url": "https://files.pythonhosted.org/packages/76/65/21b3bc86aac7b8f2862db1e808f1ea22b028e30a225a34a5ede9bf8678f2/numpy-2.3.5.tar.gz",
+                    "sha256": "784db1dcdab56bf0517743e746dfb0f885fc68d948aba86eeec2cba234bdf1c0"
                 }
             ]
         },
