@@ -1,7 +1,9 @@
 app-id: art.taunoerik.tauno-serial-plotter
 runtime: org.kde.Platform
-runtime-version: '5.15-22.08'
+runtime-version: '6.9'
 sdk: org.kde.Sdk
+base: com.riverbankcomputing.PyQt.BaseApp
+base-version: '6.9'
 command: tauno-serial-plotter.py
 
 finish-args:
@@ -27,5 +29,5 @@ modules:
       - install -Dm644 src/icons/plus.svg /app/bin/icons/plus.svg
     sources:
       - type: archive
-        url: https://github.com/taunoe/tauno-serial-plotter/archive/refs/tags/v1.19.1.tar.gz
-        sha256: 8ebfdf3c5cfb65c0f79f670495956074243700de5f70479a4ec9ae55570f347c
+        url: https://github.com/taunoe/tauno-serial-plotter/archive/refs/tags/v1.20.2.tar.gz
+        sha256: ee125e94922a65f90c9405a2ec3463eba0f2a0666f8ed157495f0ab7651c9940
