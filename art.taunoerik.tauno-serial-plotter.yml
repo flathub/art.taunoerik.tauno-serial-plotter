@@ -27,8 +27,8 @@ modules:
       - install -Dm644 src/icons/arrow_down.svg /app/bin/icons/arrow_down.svg
       - install -Dm644 src/icons/minus.svg /app/bin/icons/minus.svg
       - install -Dm644 src/icons/plus.svg /app/bin/icons/plus.svg
-      - install -Dm644 src/icons/help-about-symbolic.svg
-      - install -Dm644 src/icons/larger-brush-symbolic.svg
+      - install -Dm644 src/icons/help-about-symbolic.svg /app/bin/icons/help-about-symbolic.svg
+      - install -Dm644 src/icons/larger-brush-symbolic.svg /app/bin/icons/larger-brush-symbolic.svg
     sources:
       - type: archive
         url: https://github.com/taunoe/tauno-serial-plotter/archive/refs/tags/v1.20.4.tar.gz
