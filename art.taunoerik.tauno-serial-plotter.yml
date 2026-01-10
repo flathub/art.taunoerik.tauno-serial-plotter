@@ -29,5 +29,5 @@ modules:
       - install -Dm644 src/icons/plus.svg /app/bin/icons/plus.svg
     sources:
       - type: archive
-        url: https://github.com/taunoe/tauno-serial-plotter/archive/refs/tags/v1.20.2.tar.gz
-        sha256: ee125e94922a65f90c9405a2ec3463eba0f2a0666f8ed157495f0ab7651c9940
+        url: https://github.com/taunoe/tauno-serial-plotter/archive/refs/tags/v1.20.3.tar.gz
+        sha256: 34b401a7bce6611c2a78d9a9782e35e1b652823784e9f42d0915088ec7db2c19
