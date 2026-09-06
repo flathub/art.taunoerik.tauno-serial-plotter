@@ -35,6 +35,7 @@ modules:
       - install -Dm644 src/icons/help-about-symbolic.svg /app/bin/icons/help-about-symbolic.svg
       - install -Dm644 src/icons/larger-brush-symbolic.svg /app/bin/icons/larger-brush-symbolic.svg
     sources:
-      - type: archive
-        url: https://github.com/taunoe/tauno-serial-plotter/archive/refs/tags/v1.20.4.tar.gz
-        sha256: 1fe04b9a710dfd81f022e4409981b8a6f57ada19cb94d528f59a010c01dc1af7
+      -  type: git
+              tag: v1.20.5 
+              commit: 1cc376351012b30c556a88ef5ede05d266c47008
+              url: https://github.com/taunoe/tauno-serial-plotter
