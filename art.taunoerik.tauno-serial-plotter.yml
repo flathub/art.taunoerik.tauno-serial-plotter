@@ -25,7 +25,10 @@ modules:
     buildsystem: simple
     build-commands:
       - install -D src/tauno-serial-plotter.py /app/bin/tauno-serial-plotter.py
+      - install -D src/parser.py /app/bin/parser.py
+      - install -D src/serial_workers.py /app/bin/serial_workers.py
       - install -D src/theme.py /app/bin/theme.py
+      - install -D src/widgets.py /app/bin/widgets.py
       - install -Dm644 -t ${FLATPAK_DEST}/share/applications/ art.taunoerik.tauno-serial-plotter.desktop
       - install -Dm644 -t /app/share/appdata art.taunoerik.tauno-serial-plotter.appdata.xml
       - install -Dm644 src/icons/tauno-serial-plotter.svg /app/bin/icons/tauno-serial-plotter.svg
@@ -38,5 +41,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/taunoe/tauno-serial-plotter
-        tag: v1.21.2
-        commit: b2828efa69e1023e9832ed0c54bb02f76649240f
+        tag: v1.21.3
+        commit: 973acd48007b908f18af98cc319b52a2f9a9053c
