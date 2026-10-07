@@ -43,5 +43,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/taunoe/tauno-serial-plotter
-        tag: v1.21.6
-        commit: 8534df24c8ce8b8f4343a8f633ddba779708a388
+        tag: v1.21.7
+        commit: 4b8a589643768341a0dc64c71a88892440e8d77c
